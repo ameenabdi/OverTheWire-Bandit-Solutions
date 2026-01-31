@@ -1,7 +1,7 @@
 # OverTheWire-Bandit-Solutions
 Walk through of my completion of the 1-20 Overthewire Bandit levels!
 
-## 📊 Quick Progress Summary
+## 📊 1a.Quick Progress Summary
 
 | Level Range | Status | Focus / Tools Mastered |
 | :--- | :--- | :--- |
@@ -10,7 +10,7 @@ Walk through of my completion of the 1-20 Overthewire Bandit levels!
 | **11 - 15** | ✅ Complete | **Cryptography & Archives:** `base64`, `tr` (ROT13), `tar`, `gzip`, `xxd` |
 | **16 - 20** | ✅ Complete | **Networking & Permissions:** `nmap`, `ncat` (SSL), `diff`, `setuid` binaries |
 
-# Bandit OverTheWire: Level 1-20 Full Walkthrough
+# 1b. Bandit OverTheWire: Level 1-20 Full Walkthrough
 
 ## 📝 Individual Level Write-ups
 
