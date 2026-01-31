@@ -1,6 +1,6 @@
 # My OverTheWire Levels (1-20) Completion
 Welcome to my walkthrough to the doucmentation of my overthewire bandit challenge! 
-- Part 1 includes a quick summary table of what it includes. 
+- Part 1 includes a quick summary table of what the level entails.
 - Part 2 includes a detailed version of the completed individual bandit levels including the password and most importantly how i tackled it, learnt from it.
 
 > [!IMPORTANT]
