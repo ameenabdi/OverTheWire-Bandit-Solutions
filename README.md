@@ -12,16 +12,6 @@ Walk through of my completion of the 1-20 Overthewire Bandit levels!
 
 # Bandit OverTheWire: Level 1-20 Full Walkthrough
 
-## 📊 Quick Progress Summary
-| Level Range | Status | Focus |
-| :--- | :--- | :--- |
-| **0 - 5** | ✅ Complete | Basic Navigation & Hidden Files |
-| **6 - 10** | ✅ Complete | Advanced Searching & Filtering |
-| **11 - 15** | ✅ Complete | Cryptography & Archive Handling |
-| **16 - 20** | ✅ Complete | Networking & Privilege Escalation |
-
----
-
 ## 📝 Individual Level Write-ups
 
 <details>
