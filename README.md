@@ -108,9 +108,11 @@ Welcome to my walkthrough to the doucmentation of my overthewire bandit challeng
 
 ### Level 12 → 13
 * **Password:** `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`
-* **Command:** `xxd -r`, `tar`, `gzip`, `bzip2`
-* **What I Learnt:** Reverse hex-dumping and multi-layered compression.
-* **Logic:** Converted a hex dump back to binary using `xxd`, then used `file` at every step to identify the compression type (Gzip/Bzip2/Tar) to decompress it layer by layer.
+* **Command:** `xxd -r`, `file`, `gunzip`, `bzip2 -d`, `tar -xf`
+* **What I Learnt:** Reverse hex-dumping, analyzing file signatures, and recursive decompression.
+* **Logic:** 1. **Tool Comparison:** Using the "Suggested Commands" list, I researched both `hexdump` and `xxd`. By consulting `tldr` and `man` pages, I determined that while `hexdump` is great for viewing, only `xxd` has the `-r` (reverse) capability needed to convert the hex dump back into a functional binary file.
+  2. **Iterative Extraction:** Once the binary was restored, I used the `file` command at every stage to identify the current compression signature. 
+  3. **Multi-layer Solution:** I repeatedly applied the correct tool (`gunzip`, `bzip2`, or `tar`) to "peel" the archive layers until the final plaintext password was revealed.
 
 ### Level 13 → 14
 * **Password:** `MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS`
@@ -153,7 +155,7 @@ Welcome to my walkthrough to the doucmentation of my overthewire bandit challeng
 * **Logic:** The account was configured to log out immediately upon shell initialization. I bypassed this by passing the `cat` command directly to SSH without requesting an interactive shell.
 
 ### Level 19 → 20
-* **Password:** `[REDACTED]`
+* **Password:** `0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO`
 * **Command:** `./bandit20-do cat /etc/bandit_pass/bandit20`
 * **What I Learnt:** Privilege escalation via SetUID binaries.
 * **Logic:** Exploited a binary with the SetUID bit set, allowing me to execute commands with the higher permissions of the `bandit20` user.
@@ -169,5 +171,5 @@ Welcome to my walkthrough to the doucmentation of my overthewire bandit challeng
 * **Peer Collaboration:** Engaged with my CoderCo Community to discuss logic and troubleshoot high-level concepts with fellow peers.
 
 ## 🚀 4. Future Goals
-- [ ] Complete Bandit Levels 21-34
-- [ ] To learn and document bash script automation.
+- Complete Bandit Levels 21-34.
+-  To learn and document bash script automation.
