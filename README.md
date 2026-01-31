@@ -2,6 +2,9 @@
 Welcome to my walkthrough to the doucmentation of my overthewire bandit challenge! 
 - Part 1 includes a quick summary table of what the level entails.
 - Part 2 includes a detailed version of the completed individual bandit levels including the password and most importantly how i tackled it, learnt from it.
+- Part 3 includes the different resources i used to tackle each level.
+- Part 4 includes my future objectives after the completing levels 1-20 of this challenge.
+   
 
 > [!IMPORTANT]
 > **DISCLAIMER:** This repository contains solutions and passwords for the OverTheWire Bandit wargame. These are intended for educational purposes and documenting my personal learning journey. If you are currently playing Bandit, I highly recommend trying the levels yourself before looking at the solutions!
@@ -155,3 +158,16 @@ Welcome to my walkthrough to the doucmentation of my overthewire bandit challeng
 * **What I Learnt:** Privilege escalation via SetUID binaries.
 * **Logic:** Exploited a binary with the SetUID bit set, allowing me to execute commands with the higher permissions of the `bandit20` user.
 </details>
+
+---
+
+## 🛠️ 3. Resources Used
+* **OverTheWire Bandit:** [Official Site](https://overthewire.org/wargame/bandit/)
+* **Linux Man/Help Pages:** Used `man [command]` &  `[command] --help`extensively to understand flags.
+* **[TLDR Pages](https://tldr.sh/):** Used for simplified command-line examples and quick syntax lookups.
+* **Theoretical Research:** Used Google,Wikipedia and AI tools for researching specific concepts like SetUID and ROT13.
+* **Peer Collaboration:** Engaged with my CoderCo Community to discuss logic and troubleshoot high-level concepts with fellow peers.
+
+## 🚀 4. Future Goals
+- [ ] Complete Bandit Levels 21-34
+- [ ] To learn and document bash script automation.
