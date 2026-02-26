@@ -1,5 +1,5 @@
 # OverTheWire Bandit Challenge
-Welcome to my walkthrough to the doucmentation of my overthewire bandit challenge! 
+Welcome to my personal walkthrough of the overthewire bandit challenge! 
 - Part 1 includes a quick summary table of what the level entails.
 - Part 2 includes a detailed version of the completed individual bandit levels including the password and most importantly how i tackled it, learnt from it.
 - Part 3 includes the different resources i used to tackle each level.
