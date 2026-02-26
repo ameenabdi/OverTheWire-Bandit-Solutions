@@ -172,4 +172,4 @@ Welcome to my walkthrough to the doucmentation of my overthewire bandit challeng
 
 ## 🚀 4. Future Goals
 - Complete Bandit Levels 21-34.
--  To learn and document bash script automation.
+-  To learn and document bash scripts.
